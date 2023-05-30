@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+    <head>
+        <title>Portfolio | Neda Aleksić</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="keywords" content="portfolio, Neda Alekić, web developer, web designer, website"/>
+        <meta name="description" content="Hello, I am Neda Aleksić, I am a web developer and a web designer."/>
+        <meta name="author" content="Neda Aleksić"/>
+        <meta name="copyright" content="All rights to Neda Aleksić."/>
+        <meta name="language" content="english"/>
+        <!--CSS-->
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
+        <link rel="stylesheet" href="assets/css/responsive.css" type="text/css"/>
+        <!--ICONS-->
+        <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon"/>
+        <script src="https://kit.fontawesome.com/237c73c25f.js" crossorigin="anonymous"></script>
+        <!--GOOGLE FONTS-->
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+        </style>
+        <!--GOOGLE ICONS-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    </head>
+    <body>
+        <!--HEADER-->
+        <header id="top">
+            <div id="logo">
+                <h1>
+                    <a href="index.html"><span class="darkblue">Neda</span> Aleksić</a>
+                </h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>   
+            </nav>
+        </header>
+        <!--COVER-->
+        <section id="cover">
+            <div id="dark">
+                <h1>Hello, my name is Neda Aleksić</h1>
+                <h2>and I am a web developer and a web designer.</h2>
+                <a id="button-1" href="#contact">Contact me</a>
+                <a href="#about">
+                    <span class="material-symbols-outlined">
+                        expand_more
+                    </span>
+                </a>
+            </div>
+        </section>
+        <!--ABOUT-->
+        <section id="about">
+            <h2 class="class-title-h2">About me</h2>
+            <div class="section-content1">
+                <div class="details">
+                    <h3>Personal details:</h3>
+                    <h4>Full Name:</h4>
+                    <p>Neda Aleksić</p>
+                    <h4>Date of Birth:</h4>
+                    <p>9. 2. 2004.</p>
+                    <h4>Phone Number:</h4>
+                    <p><a href="tel:+381 62 8678 537">+381 62 8678 537</a></p>
+                    <h4>E-mail:</h4>
+                    <p><a href="mailto:neda.aleksic.95.22@ict.edu.rs">neda&#46;aleksic&#46;95&#46;22&#64;ict&#46;edu&#46;rs</a></p>
+                </div>
+                <img src="assets/img/author.jpg" alt="Author"/>
+                <div class="details-2">
+                    <h3>Education:</h3>
+                    <h4>2018 - 2022.</h4>
+                    <p>Gymnasium Smederevo (major for students with special abilities in computing and informatics)</p>
+                    <h4>2022 - now</h4>
+                    <p>ICT College of Vocational Studies</p>
+                    <h4>Languages:</h4>
+                    <p>Serbian (native)</p>
+                    <p>English</p>
+                </div>
+            </div>
+        </section>
+        <!--SKILLS-->
+        <section id="skills">
+        <h2 class="class-title-h2">My skills</h2>
+        <div id="progress">
+        <h3>HTML5</h3>
+        <div class="container">
+          <div class="skills html5">90%</div>
+        </div>
+        <h3>CSS3</h3>
+        <div class="container">
+          <div class="skills css3">90%</div>
+        </div>
+        <h3>SASS</h3>
+        <div class="container">
+          <div class="skills sass">75%</div>
+        </div>
+        <h3>C</h3>
+        <div class="container">
+          <div class="skills c">65%</div>
+        </div>
+        <h3>C#</h3>
+        <div class="container">
+          <div class="skills cs">85%</div>
+        </div>
+        <h3>SQL</h3>
+        <div class="container">
+          <div class="skills sql">85%</div>
+        </div>
+        </div>
+    </section>
+    <!--PROJECTS-->
+    <section id="projects">
+        <h2 class="class-title-h2">My projects</h2>
+        <div id="projects-content">
+        <div class="websites">
+            <a href="http://prihvatilistezapsesd.000webhostapp.com/index.html" target="_blank"><img src="assets/img/project1.png" alt="Project"/></a>
+            <h3>Prihvatilište za pse Smederevo</h3>
+            <p>HTML5 | CSS3</p>
+        </div>
+        <div class="websites" id="website2">
+            <img src="assets/img/project2.png" alt="Highschool project"/>
+            <h3>Muzički sajt</h3>
+            <p>HTML | CSS</p>
+        </div>
+    </div>
+    </section>
+    <!--CONTACT-->
+    <section id="contact">
+        <h2 class="class-title-h2">Contact me</h2>
+        <div id="contact-me-content">
+            <form>
+                <input type="text" name="tbname" id="tbname" required="required" placeholder="First name:"/>
+                <input type="text" name="tblastname" id="tblastname" required="required" placeholder="Last name:"/>
+                <input type="email" name="email" id="email" required="required" placeholder="E-mail:"/>
+                <textarea name="message" id="message" placeholder="Message:"></textarea>
+                <input type="submit" value="SEND"/>
+            </form>
+            <div id="map"><iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=smederevo+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">measure area map</a></iframe></div>
+        </div>
+    </section>
+    <!--FIXED ARROW-->
+    <a href="#top" class="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+      </a>
+    <!--FOOTER-->
+    <footer>
+        <p><a href="index.html">Neda Aleksić</a> | © 2023 All rights reserved.</p>
+            <div class="icons">
+                <p>FOLLOW ME:</p>
+                <div class="ikona"><a href="https://www.facebook.com/nedaaleksicc" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/nedaaleksicc" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://github.com/nedaaleksic" target="_blank"><i class="fa-brands fa-github"></i></a></div>
+            </div>
+            <div class="icons">
+                <p>USEFUL LINKS:</p>
+                <div class="ikona">
+                <a href="assets/css/style.scss" target="_blank"><i class="fa-brands fa-sass"></i></a>
+                <a href="assets/css/style.css" target="_blank"><i class="fa-brands fa-css3-alt"></i></a>
+                <a href="sitemap.xml" target="_blank"><i class="fa-solid fa-sitemap"></i></a></div>
+            </div>
+    </footer>
+    </body>
+</html>
