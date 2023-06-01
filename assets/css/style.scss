@@ -32,7 +32,7 @@ $font-2: 'Raleway', sans-serif;
     margin-left: 10px;
 }
 @mixin dark {
-    background:rgba(0,0,0,0.75);
+    background:rgba(0,0,0,0.85);
     width: 100%;
     height: inherit;
 }
@@ -132,12 +132,12 @@ header {
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
-    h1, h2 {
+    #maintitle, h2 {
         color: $lilac;
         font-weight: 550;
         text-align: center;
     }
-    h1 {
+    #maintitle {
         font: {
         size: 50px;
         }
@@ -168,7 +168,6 @@ header {
         transition: top 0.5s ease-in-out; 
         animation: bounce 2s infinite;
     }
-
 }
 @keyframes bounce {
     0%, 100% {
@@ -440,6 +439,10 @@ footer {
     align-items: center;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
     opacity: 1; 
+    transition: 0.5s;
+    &:hover{
+        transform: scale(1.1);
+    } 
     i {
     color: $lilac;
   }
